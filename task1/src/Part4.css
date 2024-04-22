@@ -1,0 +1,14 @@
+.c-div {
+	display: flex;
+	/*justify-content: space-around;
+	align-items: center;*/
+	flex-wrap: wrap;
+}
+.c-div-item {
+	color: #3A643B;
+	background: #F7F7FC;
+	padding: 10px 10px;
+	border-radius: 19px;
+	font-family: Arial;
+	margin-left: 10px;
+}

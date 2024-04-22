@@ -1,0 +1,94 @@
+.navbar {
+	width: 100%;
+	background-color: #FFF7E2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	box-shadow: 1px 1px 5px black;
+}
+.navbar-image {
+	width: 250px;
+	height: 59px;
+}
+.navbar-div {
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+	flex-wrap: wrap;
+}
+.navbar-div-child {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 3px 0px;
+}
+.navbar-div-item {
+	margin-left: 20px;
+}
+.navbar-div-item-p {
+	color: #474747;
+	font-size: 1rem;
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+.link1 {
+	color: #474747;
+	font-size: 1rem;
+	margin-left: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.link2 {
+	color: #3A643B;
+	font-size: 1rem;
+	margin-left: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+.link3 {
+	color: #474747;
+	font-size: 1rem;
+	margin-left: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.link1:hover {
+	transform: scale(1.1);
+    border-bottom: 3px solid black;
+}
+.link2:hover {
+	transform: scale(1.1);
+    border-bottom: 3px solid black;
+}
+.link3:hover {
+	transform: scale(1.1);
+    border-bottom: 3px solid black;
+}
+.navbar-div-item-p1 {
+	color: #3A643B;
+	font-size: 1rem;
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+.navbar-button {
+	color: #3A643B;
+	border: 1px solid #3A643B;
+	padding: 10px 20px;
+	font-family: Arial;
+	background-color: transparent;
+	border-radius: 11px;
+	font-weight: bold;
+}
+.navbar-button1 {
+	color: #FFFFFF;
+	border: 1px solid #3A643B;
+	padding: 10px 20px;
+	font-family: Arial;
+	background-color: #3A643B;
+	border-radius: 11px;
+	font-weight: bold;
+}

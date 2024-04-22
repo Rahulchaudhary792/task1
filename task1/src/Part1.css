@@ -1,0 +1,94 @@
+.image-part1 {
+	width: 85%;
+	height: 168px;
+	margin-top: 120px;
+	border-top-left-radius: 11px;
+	border-top-right-radius: 11px;
+}
+.image-part1-div {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+.image-part1-next-div {
+	background-color: #FFFBF2;
+	width: 85%;
+	/*height: 151px;*/
+	border: 1px solid #D8D8D8;
+}
+.image-part1-next-div-image {
+	border-radius: 100%;
+	width: 159px;
+	height: 159px;
+	position: relative;
+	bottom: 30px;
+	/*left: 30px;*/
+}
+.part1-div {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 12px 10px;
+}
+.p-name {
+	color: #212529;
+	font-family: Arial;
+}
+.p-text {
+	color: #3A643B;
+	font-family: Arial;
+	font-size: 16px;
+}
+.p-stats {
+	color: #212529;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial;
+	text-align: center;
+}
+.p-button {
+	color: #FFFFFF;
+	background-color: #3A643B;
+	font-family: Arial;
+	padding: 12px 15px;
+	border-radius: 8px;
+	border: none;
+	font-weight: bold;
+}
+.stars-image {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+.p-text1 {
+	color: #3A643B;
+	font-family: Arial;
+	font-size: 16px;
+	position: relative; 
+	bottom: 20px;
+}
+.right-mark-image {
+	width: 40px;
+	position: relative;
+	top: 10px;
+	border-radius: 100%;
+}
+.doctor-pic-image {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	bottom: 220px;
+	z-index: 2;
+	background-color: rgb(241, 239, 239);
+	padding: 30px 30px;
+	border-radius: 100%;
+}
+.modal-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
